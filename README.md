@@ -45,3 +45,18 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
 | Cách nộp bài | [SUBMISSION.md](SUBMISSION.md) |
 
 [data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus đủ điều kiện. Phần xử lý và benchmark do bạn tự hiện thực; không bắt buộc xây chatbot.
+
+## Thiết lập và chạy pipeline (Bài làm cá nhân)
+
+- **Dữ liệu & manifest:** [data/manifest.json](data/manifest.json) (88 trang nội dung từ 2 PDF trong `starter/data/`).
+- **Benchmark:** [benchmark/questions.json](benchmark/questions.json) (15 dev / 5 test, gồm 4 câu metadata filter).
+- **Báo cáo cá nhân:** [report/individual/2A202603777_DoLyHoangNam.md](report/individual/2A202603777_DoLyHoangNam.md).
+
+```powershell
+cd starter
+.\.venv\Scripts\Activate.ps1
+docker compose -p day6_student_starter up -d --wait
+python scripts/check_setup.py
+python -m src.run
+python scripts/analyze_results.py
+```

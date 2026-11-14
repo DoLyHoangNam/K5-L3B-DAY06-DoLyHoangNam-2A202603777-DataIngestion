@@ -1,0 +1,16 @@
+strategy,question_id,split,grounding_score_0_2,auto_hit3,reason
+A,q16,test,0,False,Top-3 returned chart/figure axis labels and 2025 outlook without 2023 global GDP/trade forecast numbers
+A,q17,test,2,True,Rank #1 gives 77% spent and 23% deviation; rank #3 gives <5% international good practice threshold
+A,q18,test,1,False,Rank #2 mentions 'no formal methodological basis' for climate appraisal but omits 'social cost-benefit analysis' cut into another chunk
+A,q19,test,2,True,Rank #1 contains exact 54% vs 61.7% regional median and increased household savings explanation
+A,q20,test,1,False,Rank #1 and #2 split the sentence across the 500-char boundary; EVN is in #1 while ministries are partially in #2
+B,q16,test,0,False,Top-3 returned figure labels and 2025 outlook without 2023 global GDP/trade forecast numbers
+B,q17,test,2,True,Rank #2 gives 77% spent / 23% deviation and rank #1 gives <5% good practice threshold
+B,q18,test,0,False,Top-3 discusses environmental impact assessments and appraisal without stating absence of social cost-benefit analysis
+B,q19,test,2,False,Rank #1 (p.19) states exact 54% vs 61.7% median and household savings reason even though automatic gold_page only listed p.11
+B,q20,test,2,True,Rank #1 keeps the entire paragraph intact with all 5 ministries (MoT MoIT MoF MPI MoST) and Viet Nam Electricity
+C,q16,test,0,False,Identical top-3 to B (no filter on q16)
+C,q17,test,2,True,Identical top-3 to B (no filter on q17)
+C,q18,test,0,False,Identical top-3 to B (no filter on q18)
+C,q19,test,2,False,With year=2025 filter rank #1 (p.19) gives full 54% vs 61.7% median and household savings reason
+C,q20,test,2,True,Identical top-3 to B (no filter on q20)

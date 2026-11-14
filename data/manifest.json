@@ -1,0 +1,478 @@
+{
+  "topic": "Viet Nam Economic Updates & Special Topics (World Bank Taking Stock 2023 & 2025)",
+  "page_counting_rule": "Count only physical PDF pages containing substantive analytical content (Overview/Executive Summary, Chapter 1, Chapter 2). Exclude covers, blank pages, copyright/publication info, TOC/list of figures/tables/abbreviations, acknowledgements, single-title chapter divider pages, references, and colophon.",
+  "total_physical_pages": 120,
+  "total_content_pages": 88,
+  "documents": [
+    {
+      "source_id": "wb-taking-stock-2023-08",
+      "title": "Taking Stock August 2023: Making Public Investment Work for Growth",
+      "local_path": "starter/data/taking_stock_2023_08.pdf",
+      "source_path_or_url": "https://documents1.worldbank.org/curated/en/099408408092319382/pdf/IDU0301a3e760c732046e509d3106e81810de4b9.pdf",
+      "license_or_permission": "World Bank Open Knowledge / Public Disclosure Authorized (CC BY 3.0 IGO, see page 4)",
+      "accessed_at": "2026-11-14",
+      "year": 2023,
+      "physical_pages": 58,
+      "content_pages_count": 40,
+      "total_content_chars": 128743,
+      "excluded_notes": "Excluded cover/blank/copyright/TOC/abbreviations/acknowledgements (P1-P10), chapter dividers (P18, P38), references and back matter (P53-P58).",
+      "pages": [
+        {
+          "page": 11,
+          "section": "overview",
+          "chars": 3777
+        },
+        {
+          "page": 12,
+          "section": "overview",
+          "chars": 4175
+        },
+        {
+          "page": 13,
+          "section": "overview",
+          "chars": 3534
+        },
+        {
+          "page": 14,
+          "section": "overview",
+          "chars": 3902
+        },
+        {
+          "page": 15,
+          "section": "overview",
+          "chars": 3598
+        },
+        {
+          "page": 16,
+          "section": "overview",
+          "chars": 4419
+        },
+        {
+          "page": 17,
+          "section": "overview",
+          "chars": 4216
+        },
+        {
+          "page": 19,
+          "section": "economic_developments",
+          "chars": 2449
+        },
+        {
+          "page": 20,
+          "section": "economic_developments",
+          "chars": 3186
+        },
+        {
+          "page": 21,
+          "section": "economic_developments",
+          "chars": 3010
+        },
+        {
+          "page": 22,
+          "section": "economic_developments",
+          "chars": 4090
+        },
+        {
+          "page": 23,
+          "section": "economic_developments",
+          "chars": 2676
+        },
+        {
+          "page": 24,
+          "section": "economic_developments",
+          "chars": 2630
+        },
+        {
+          "page": 25,
+          "section": "economic_developments",
+          "chars": 2851
+        },
+        {
+          "page": 26,
+          "section": "economic_developments",
+          "chars": 1817
+        },
+        {
+          "page": 27,
+          "section": "economic_developments",
+          "chars": 2066
+        },
+        {
+          "page": 28,
+          "section": "economic_developments",
+          "chars": 2793
+        },
+        {
+          "page": 29,
+          "section": "economic_developments",
+          "chars": 1973
+        },
+        {
+          "page": 30,
+          "section": "economic_developments",
+          "chars": 2791
+        },
+        {
+          "page": 31,
+          "section": "economic_developments",
+          "chars": 3127
+        },
+        {
+          "page": 32,
+          "section": "economic_developments",
+          "chars": 2548
+        },
+        {
+          "page": 33,
+          "section": "economic_developments",
+          "chars": 4289
+        },
+        {
+          "page": 34,
+          "section": "economic_developments",
+          "chars": 3311
+        },
+        {
+          "page": 35,
+          "section": "economic_developments",
+          "chars": 4214
+        },
+        {
+          "page": 36,
+          "section": "economic_developments",
+          "chars": 3646
+        },
+        {
+          "page": 37,
+          "section": "economic_developments",
+          "chars": 1349
+        },
+        {
+          "page": 39,
+          "section": "special_topic",
+          "chars": 2918
+        },
+        {
+          "page": 40,
+          "section": "special_topic",
+          "chars": 2251
+        },
+        {
+          "page": 41,
+          "section": "special_topic",
+          "chars": 3743
+        },
+        {
+          "page": 42,
+          "section": "special_topic",
+          "chars": 2660
+        },
+        {
+          "page": 43,
+          "section": "special_topic",
+          "chars": 2605
+        },
+        {
+          "page": 44,
+          "section": "special_topic",
+          "chars": 3543
+        },
+        {
+          "page": 45,
+          "section": "special_topic",
+          "chars": 3129
+        },
+        {
+          "page": 46,
+          "section": "special_topic",
+          "chars": 3611
+        },
+        {
+          "page": 47,
+          "section": "special_topic",
+          "chars": 4190
+        },
+        {
+          "page": 48,
+          "section": "special_topic",
+          "chars": 3948
+        },
+        {
+          "page": 49,
+          "section": "special_topic",
+          "chars": 3807
+        },
+        {
+          "page": 50,
+          "section": "special_topic",
+          "chars": 4489
+        },
+        {
+          "page": 51,
+          "section": "special_topic",
+          "chars": 3504
+        },
+        {
+          "page": 52,
+          "section": "special_topic",
+          "chars": 1908
+        }
+      ]
+    },
+    {
+      "source_id": "wb-taking-stock-2025-03",
+      "title": "Taking Stock March 2025: Electrifying Journeys - E-mobility Transition in Viet Nam",
+      "local_path": "starter/data/taking_stock_2025_03.pdf",
+      "source_path_or_url": "https://documents1.worldbank.org/curated/en/099919303102515323/pdf/IDU1409e09011e76f14c351b13a1248c3fb8c4c0.pdf",
+      "license_or_permission": "World Bank Open Knowledge / Public Disclosure Authorized (CC BY 3.0 IGO / CC BY 4.0, see page 4)",
+      "accessed_at": "2026-11-14",
+      "year": 2025,
+      "physical_pages": 62,
+      "content_pages_count": 48,
+      "total_content_chars": 110049,
+      "excluded_notes": "Excluded cover/blank/copyright/TOC/abbreviations/acknowledgements (P1-P10), chapter dividers (P18, P41), blank/back cover (P61-P62).",
+      "pages": [
+        {
+          "page": 11,
+          "section": "overview",
+          "chars": 2701
+        },
+        {
+          "page": 12,
+          "section": "overview",
+          "chars": 3042
+        },
+        {
+          "page": 13,
+          "section": "overview",
+          "chars": 3418
+        },
+        {
+          "page": 14,
+          "section": "overview",
+          "chars": 2662
+        },
+        {
+          "page": 15,
+          "section": "overview",
+          "chars": 2298
+        },
+        {
+          "page": 16,
+          "section": "overview",
+          "chars": 3164
+        },
+        {
+          "page": 17,
+          "section": "overview",
+          "chars": 3170
+        },
+        {
+          "page": 19,
+          "section": "economic_developments",
+          "chars": 2224
+        },
+        {
+          "page": 20,
+          "section": "economic_developments",
+          "chars": 2355
+        },
+        {
+          "page": 21,
+          "section": "economic_developments",
+          "chars": 1367
+        },
+        {
+          "page": 22,
+          "section": "economic_developments",
+          "chars": 2619
+        },
+        {
+          "page": 23,
+          "section": "economic_developments",
+          "chars": 2057
+        },
+        {
+          "page": 24,
+          "section": "economic_developments",
+          "chars": 2124
+        },
+        {
+          "page": 25,
+          "section": "economic_developments",
+          "chars": 2406
+        },
+        {
+          "page": 26,
+          "section": "economic_developments",
+          "chars": 1719
+        },
+        {
+          "page": 27,
+          "section": "economic_developments",
+          "chars": 2440
+        },
+        {
+          "page": 28,
+          "section": "economic_developments",
+          "chars": 2639
+        },
+        {
+          "page": 29,
+          "section": "economic_developments",
+          "chars": 2128
+        },
+        {
+          "page": 30,
+          "section": "economic_developments",
+          "chars": 1326
+        },
+        {
+          "page": 31,
+          "section": "economic_developments",
+          "chars": 2642
+        },
+        {
+          "page": 32,
+          "section": "economic_developments",
+          "chars": 2423
+        },
+        {
+          "page": 33,
+          "section": "economic_developments",
+          "chars": 2724
+        },
+        {
+          "page": 34,
+          "section": "economic_developments",
+          "chars": 2503
+        },
+        {
+          "page": 35,
+          "section": "economic_developments",
+          "chars": 2754
+        },
+        {
+          "page": 36,
+          "section": "economic_developments",
+          "chars": 1012
+        },
+        {
+          "page": 37,
+          "section": "economic_developments",
+          "chars": 2108
+        },
+        {
+          "page": 38,
+          "section": "economic_developments",
+          "chars": 2459
+        },
+        {
+          "page": 39,
+          "section": "economic_developments",
+          "chars": 3426
+        },
+        {
+          "page": 40,
+          "section": "economic_developments",
+          "chars": 1794
+        },
+        {
+          "page": 42,
+          "section": "special_topic",
+          "chars": 2039
+        },
+        {
+          "page": 43,
+          "section": "special_topic",
+          "chars": 2133
+        },
+        {
+          "page": 44,
+          "section": "special_topic",
+          "chars": 1736
+        },
+        {
+          "page": 45,
+          "section": "special_topic",
+          "chars": 2354
+        },
+        {
+          "page": 46,
+          "section": "special_topic",
+          "chars": 2016
+        },
+        {
+          "page": 47,
+          "section": "special_topic",
+          "chars": 2667
+        },
+        {
+          "page": 48,
+          "section": "special_topic",
+          "chars": 2373
+        },
+        {
+          "page": 49,
+          "section": "special_topic",
+          "chars": 1259
+        },
+        {
+          "page": 50,
+          "section": "special_topic",
+          "chars": 2375
+        },
+        {
+          "page": 51,
+          "section": "special_topic",
+          "chars": 2816
+        },
+        {
+          "page": 52,
+          "section": "special_topic",
+          "chars": 1663
+        },
+        {
+          "page": 53,
+          "section": "special_topic",
+          "chars": 2425
+        },
+        {
+          "page": 54,
+          "section": "special_topic",
+          "chars": 891
+        },
+        {
+          "page": 55,
+          "section": "special_topic",
+          "chars": 2318
+        },
+        {
+          "page": 56,
+          "section": "special_topic",
+          "chars": 1628
+        },
+        {
+          "page": 57,
+          "section": "special_topic",
+          "chars": 1491
+        },
+        {
+          "page": 58,
+          "section": "special_topic",
+          "chars": 3241
+        },
+        {
+          "page": 59,
+          "section": "special_topic",
+          "chars": 3181
+        },
+        {
+          "page": 60,
+          "section": "special_topic",
+          "chars": 1739
+        }
+      ]
+    }
+  ]
+}

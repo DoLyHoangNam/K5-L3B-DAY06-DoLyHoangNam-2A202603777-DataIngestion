@@ -1,0 +1,31 @@
+position_id,document_id,page,chunk_slot,strategy,chunk_id,coherence_score_0_2,reason
+pos01,wb-taking-stock-2023-08,11,c001,A,A:wb-taking-stock-2023-08:p011:c001,0,Starts mid-word ('stering 8 percent') and ends mid-sentence ('This in turn')
+pos02,wb-taking-stock-2023-08,12,c001,A,A:wb-taking-stock-2023-08:p012:c001,0,Starts mid-phrase ('just 1.4 percent') and ends mid-word ('7 Th')
+pos03,wb-taking-stock-2023-08,13,c001,A,A:wb-taking-stock-2023-08:p013:c001,1,Starts mid-word ('covery Plan') but middle sentence on 30.5% disbursement is self-contained
+pos04,wb-taking-stock-2023-08,14,c001,A,A:wb-taking-stock-2023-08:p014:c001,1,Ends mid-word ('vulnerab') but middle sentences on monetary tightening are readable
+pos05,wb-taking-stock-2023-08,15,c001,A,A:wb-taking-stock-2023-08:p015:c001,0,Starts mid-sentence and ends mid-word ('depositors and pre')
+pos06,wb-taking-stock-2023-08,16,c001,A,A:wb-taking-stock-2023-08:p016:c001,1,Starts/ends mid-word ('e and development', 'to th') but middle sentence on 77th/141 rank is complete
+pos07,wb-taking-stock-2023-08,17,c001,A,A:wb-taking-stock-2023-08:p017:c001,0,Starts mid-word ('ategy nor') and ends mid-word ('various level')
+pos08,wb-taking-stock-2023-08,19,c001,A,A:wb-taking-stock-2023-08:p019:c001,1,Starts/ends mid-word but middle sentence on 1.7% global trade growth is complete
+pos09,wb-taking-stock-2023-08,20,c001,A,A:wb-taking-stock-2023-08:p020:c001,0,Starts and ends mid-sentence with truncated context
+pos10,wb-taking-stock-2023-08,21,c001,A,A:wb-taking-stock-2023-08:p021:c001,1,Starts mid-phrase but contains complete sentence on June 2023 consumer survey
+pos01,wb-taking-stock-2023-08,11,c001,B,B:wb-taking-stock-2023-08:p011:c001,1,No mid-word cuts and contains 2 full sentences on exports/investment; PDF line-wrap splits boundary
+pos02,wb-taking-stock-2023-08,12,c001,B,B:wb-taking-stock-2023-08:p012:c001,1,No mid-word cuts and keeps unemployment sentence intact; boundary starts/ends mid-sentence from PDF newline
+pos03,wb-taking-stock-2023-08,13,c001,B,B:wb-taking-stock-2023-08:p013:c001,1,Contains 2 full outlook/consumption sentences without mid-word cuts; starts mid-sentence
+pos04,wb-taking-stock-2023-08,14,c001,B,B:wb-taking-stock-2023-08:p014:c001,1,Contains 2 full fiscal/disaster sentences; ends mid-sentence at 800-char boundary
+pos05,wb-taking-stock-2023-08,15,c001,B,B:wb-taking-stock-2023-08:p015:c001,1,Contains full bank resolution framework sentences; minor boundary truncation
+pos06,wb-taking-stock-2023-08,16,c001,B,B:wb-taking-stock-2023-08:p016:c001,1,Contains full budget deviation (23%) sentence; starts mid-sentence due to PDF newline
+pos07,wb-taking-stock-2023-08,17,c001,B,B:wb-taking-stock-2023-08:p017:c001,1,Contains full transboundary challenges sentence; starts/ends mid-sentence
+pos08,wb-taking-stock-2023-08,19,c001,B,B:wb-taking-stock-2023-08:p019:c001,1,Contains complete Vietnam 3.7% GDP growth sentence; includes chart label at end
+pos09,wb-taking-stock-2023-08,20,c001,B,B:wb-taking-stock-2023-08:p020:c001,1,Contains complete services/manufacturing sentence; starts/ends mid-sentence
+pos10,wb-taking-stock-2023-08,21,c001,B,B:wb-taking-stock-2023-08:p021:c001,1,Contains complete average income sentence; starts/ends mid-sentence
+pos01,wb-taking-stock-2023-08,11,c001,C,C:wb-taking-stock-2023-08:p011:c001,1,Identical chunking to B; no mid-word cuts and 2 full sentences intact
+pos02,wb-taking-stock-2023-08,12,c001,C,C:wb-taking-stock-2023-08:p012:c001,1,Identical chunking to B; keeps unemployment sentence intact
+pos03,wb-taking-stock-2023-08,13,c001,C,C:wb-taking-stock-2023-08:p013:c001,1,Identical chunking to B; 2 full outlook sentences intact
+pos04,wb-taking-stock-2023-08,14,c001,C,C:wb-taking-stock-2023-08:p014:c001,1,Identical chunking to B; 2 full fiscal sentences intact
+pos05,wb-taking-stock-2023-08,15,c001,C,C:wb-taking-stock-2023-08:p015:c001,1,Identical chunking to B; bank resolution sentences intact
+pos06,wb-taking-stock-2023-08,16,c001,C,C:wb-taking-stock-2023-08:p016:c001,1,Identical chunking to B; budget deviation sentence intact
+pos07,wb-taking-stock-2023-08,17,c001,C,C:wb-taking-stock-2023-08:p017:c001,1,Identical chunking to B; transboundary sentence intact
+pos08,wb-taking-stock-2023-08,19,c001,C,C:wb-taking-stock-2023-08:p019:c001,1,Identical chunking to B; Vietnam GDP growth sentence intact
+pos09,wb-taking-stock-2023-08,20,c001,C,C:wb-taking-stock-2023-08:p020:c001,1,Identical chunking to B; services/manufacturing sentence intact
+pos10,wb-taking-stock-2023-08,21,c001,C,C:wb-taking-stock-2023-08:p021:c001,1,Identical chunking to B; average income sentence intact

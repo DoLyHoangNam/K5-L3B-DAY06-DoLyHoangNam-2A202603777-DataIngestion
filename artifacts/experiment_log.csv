@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,500,50,document_id+source+page+year+section,none,gemini-embedding-001 (3072d),Fixed 500-char windows give focused embeddings but split sentences at boundaries,4/15 (26.7%),8/15 (53.3%),2/5 (40.0%),2/5 (40.0%),558 chunks; 395.69s ingest; coherence 0.50/2; grounding 1.20/2
+B,by_paragraph,800,0,document_id+source+page+year+section,none,gemini-embedding-001 (3072d),Paragraph grouping preserves sentence coherence and avoids mid-word cuts vs A,2/15 (13.3%),6/15 (40.0%),1/5 (20.0%),2/5 (40.0%),361 chunks; 273.12s ingest; coherence 1.00/2; grounding 1.20/2; p.19 in q19 grounded manually
+C,by_paragraph,800,0,document_id+source+page+year+section,year+section (when provided),gemini-embedding-001 (3072d),Metadata filtering eliminates cross-year false positives on year-scoped queries vs B,2/15 (13.3%),6/15 (40.0%),1/5 (20.0%),2/5 (40.0%),361 chunks; 0.79s upsert (reused B vectors); coherence 1.00/2; grounding 1.20/2; eliminated wrong-year chunks in q03 & q09

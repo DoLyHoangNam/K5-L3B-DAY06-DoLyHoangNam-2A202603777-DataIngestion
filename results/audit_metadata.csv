@@ -1,0 +1,4 @@
+strategy,question_id,split,test_records_checked,metadata_complete_and_correct,filter_applied,filter_compliant,notes
+A,q16-q20,test,15,15/15,None,N/A,All 15 top-3 chunks have accurate document_id/source/page/year/section matching manifest.json
+B,q16-q20,test,15,15/15,None,N/A,All 15 top-3 chunks have accurate document_id/source/page/year/section matching manifest.json
+C,q16-q20,test,15,15/15,q19:{year:2025},1/1,All 15 top-3 chunks match manifest.json; q19 strictly returned only year=2025 chunks (3/3)

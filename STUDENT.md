@@ -1,8 +1,8 @@
 # Thông tin học viên
 
-- Họ và tên:
-- MSSV:
-- Lớp: L3A / L3B / khác:
-- Chủ đề và corpus:
-- Repo bài nộp:
-- Commit chốt bài:
+- Họ và tên: Đỗ Lý Hoàng Nam
+- MSSV: 2A202603777
+- Lớp: L3B
+- Chủ đề và corpus: Kinh tế Việt Nam & Chuyên đề chính sách — World Bank Taking Stock (08/2023 & 03/2025), 88 trang nội dung
+- Repo bài nộp: (điền link repo cá nhân sau khi push)
+- Commit chốt bài: (điền hash commit sau khi push)

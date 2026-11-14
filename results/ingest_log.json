@@ -1,0 +1,13 @@
+{
+  "content_pages": 88,
+  "empty_or_error_pages": [],
+  "embedder_model": "gemini-embedding-001",
+  "dimensions": 3072,
+  "api_calls": 0,
+  "total_embedded_chars": 0,
+  "reingest_idempotency_check": {
+    "strategy": "B",
+    "before": 361,
+    "after": 361
+  }
+}
